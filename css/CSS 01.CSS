@@ -1,0 +1,68 @@
+h1 
+{
+    color: aqua; 
+}
+p
+{
+    font-size: 18px;
+    color: chocolate;
+    background-color: chartreuse;
+    border: 2px solid blueviolet;
+}
+#para1 /* id selector */
+{
+    font-size: 18px;
+    color: rgb(16, 11, 9);
+    background-color: rgb(20, 29, 100);
+    border: 2px solid blueviolet;
+}
+.common /* class selector*/
+{
+    font-size: 18px;
+    color: chocolate;
+    background-color: chartreuse;
+    border: 2px solid blueviolet;
+}
+#outerbox
+{
+    width: 1000px;
+    height:500px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /*space-between and space around*/
+    /*gap: 10px;*/
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+#box1
+{
+    background-color: brown;
+   /*float: left;*/
+}
+#box2
+{
+    background-color:blueviolet;
+   /*float: left;*/ 
+}
+#box3
+{
+    background-color: indianred;
+    /*float: left;*/
+}
+#box4
+{
+    background-color: green;
+    /*float: left;*/
+}
+#box5
+{
+    background-color: greenyellow;
+    /*float: left;*/
+}
